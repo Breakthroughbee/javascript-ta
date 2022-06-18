@@ -1,6 +1,23 @@
 // complete the function
 function prime (num) {
-  // code goes here
+  if (num <= 1) {
+    return false;
+  } else {
+    for (let i = 2; i < num; i++) {
+      if (num % i == 0) {
+        return false;
+      }
+    } 
+    return true;
+  }
+  const isPrime = prime(2);
+  console.log(isPrime);
+    if (isPrime) {
+      console.log(`${number} is a prime number`);
+    } else {
+      console.log(`${number} is not a prime number`);
+    }
+  //code goes here  
 }
 
 function solution (arg) {
