@@ -16,7 +16,7 @@ function prime (num) {
       console.log(`${number} is a prime number`);
     } else {
       console.log(`${number} is not a prime number`);
-    }
+    } 
   //code goes here  
 }
 
